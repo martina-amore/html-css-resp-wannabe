@@ -82,16 +82,21 @@ img {
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 28px;
     }
 
     h3 {
-        font-size: 28px;
+        font-size: 22px;
+    }
+
+    img {
+      height: 120px;
     }
 
     .row {
         margin-top: 0;
         padding: 10px 20px;
+        width: 100%;
     }
 
     #lezioni .row {
@@ -136,20 +141,25 @@ img {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-size: 25px;
+        font-size: 18px;
+    }
+
+    img {
+      height: 80px;
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 25px;
     }
 
     h3 {
-        font-size: 34px;
+        font-size: 20px;
     }
 
     .row {
         margin-top: 0;
         padding: 10px 20px;
+        width: 100%;
     }
 
     #lezioni .row {
@@ -159,14 +169,14 @@ img {
     #lezioni .row > .left,
     #lezioni .row > .right {
         width: 100%;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     #steps .row > .left,
     #steps .row > .central,
     #steps .row > .right {
         width: 100%;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     #why .row {
@@ -176,13 +186,13 @@ img {
     #why .row > .first,
     #why .row > .second,
     #why .row > .third {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     #lezioni .row > .right,
     #steps .row > .right,
     #why .row > .third {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
     .container.grey {
